@@ -1,0 +1,9 @@
+E:\clases programacion 2\Clase1\Clase1\bin\Debug\Clase1.exe.config
+E:\clases programacion 2\Clase1\Clase1\bin\Debug\Clase1.exe
+E:\clases programacion 2\Clase1\Clase1\bin\Debug\Clase1.pdb
+E:\clases programacion 2\Clase1\Clase1\obj\Debug\Clase1.csprojAssemblyReference.cache
+E:\clases programacion 2\Clase1\Clase1\obj\Debug\Clase1.Properties.Resources.resources
+E:\clases programacion 2\Clase1\Clase1\obj\Debug\Clase1.csproj.GenerateResource.cache
+E:\clases programacion 2\Clase1\Clase1\obj\Debug\Clase1.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\Clase1\Clase1\obj\Debug\Clase1.exe
+E:\clases programacion 2\Clase1\Clase1\obj\Debug\Clase1.pdb
