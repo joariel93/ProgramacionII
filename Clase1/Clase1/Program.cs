@@ -14,24 +14,8 @@ namespace Clase1
         [STAThread]
         static void Main()
         {
-            Console.WriteLine("Hello World");
-            string[] nombres = new string[3] { "Hola", "salio", "bien." };
+           
 
-            //foreach (var item in nombres)
-            //{
-            //    Console.WriteLine(item);
-
-            //}
-
-            for(int i=0;i<nombres.Length;i++)
-            {
-                string elem = nombres[i];
-                Console.WriteLine(elem);
-            }
-          
-            string miTexto = "Hola!";
-
-            Console.WriteLine("Acá iría mi texto: {0}", miTexto);
 
         }
     }
