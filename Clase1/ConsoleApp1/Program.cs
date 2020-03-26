@@ -11,7 +11,19 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            string[] nombres = new string[3] { "Hola", "salio", "bien." };
+            string linea = "--------------------------";
+
+            int numEjercicio1 = default;
+            int maximo = default;
+            int minimo = default;
+            int acumulador = default;
+            float promedio = default;
+            string numeroString = default;
+            bool flagEj1 = false, flagEj2=false;
+            int i = 0;
+            double numEjercicio2 = default;
+            double cuadradoEj2 = default;
+            double cuboEj2 = default;
 
             //foreach (var item in nombres)
             //{
@@ -29,11 +41,78 @@ namespace ConsoleApp1
 
             //Console.WriteLine("Acá iría mi texto: {0}", miTexto);
 
-            string aux = Console.ReadLine();
-            Console.WriteLine(aux);
+            //string aux = Console.ReadLine();
+            //Console.WriteLine(aux);
+
+            //Console.ReadKey();
+            Console.WriteLine(linea);
+            Console.WriteLine("Ejercicio 1");
+            do
+            {
+                Console.WriteLine("Ingrese un numero: ");
+                numeroString = Console.ReadLine();
+                if (int.TryParse(numeroString, out numEjercicio1))
+                {
+                    numEjercicio1 = int.Parse(numeroString);
+                    if (flagEj1 == false)
+                    {
+                        maximo = numEjercicio1;
+                        minimo = numEjercicio1;
+                        acumulador = numEjercicio1;
+                        flagEj1 = true;
+
+                    }
+                    else
+                    {
+                        if (numEjercicio1 < minimo)
+                        {
+                            minimo = numEjercicio1;
+                        }
+                        if (numEjercicio1 > maximo)
+                        {
+                            maximo = numEjercicio1;
+                        }
+                        acumulador = acumulador + numEjercicio1;
+                    }
+                    i++;
+                }
+                else
+                {
+                    Console.WriteLine("Error debe ingresar un numero. ");
+                }
+            } while (i < 5);
+
+            promedio = (float)acumulador / 5;
+            Console.WriteLine("Maximo: {0}",maximo);
+            Console.WriteLine("Minimo: {0}", minimo);
+            Console.WriteLine("Promedio: {0}", promedio);
+            Console.WriteLine(linea);
+            Console.WriteLine(linea);
+            Console.WriteLine("Ejercicio 2");
+            do
+            {
+                Console.Write("Ingrese un numero: ");
+                numeroString = Console.ReadLine();
+                Console.WriteLine("");
+                if (double.TryParse(numeroString, out numEjercicio2)||double.Parse(numeroString)<=0)
+                {
+                    numEjercicio2 = double.Parse(numeroString);
+                    cuadradoEj2 = Math.Pow(numEjercicio2, 2);
+                    cuboEj2 = Math.Pow(numEjercicio2, 3);
+                    flagEj2 = true;
+
+                }
+                else
+                {
+                    Console.WriteLine("Error debe ingresar un numero mayor a 0. ");
+                }
+            } while (flagEj2 == false);
+            Console.WriteLine("El numero ingresado fue: {0}", numEjercicio2);
+            Console.WriteLine("El cuadrado del numero es: {0}", cuadradoEj2);
+            Console.WriteLine("El cubo del numero es: {0}", cuboEj2);
+
 
             Console.ReadKey();
-
 
         }
     }
