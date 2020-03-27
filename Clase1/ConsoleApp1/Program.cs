@@ -115,32 +115,38 @@ namespace ConsoleApp1
             //Console.WriteLine(linea);
             //Console.WriteLine(linea);
 
-            Console.WriteLine("Ejercicio 3");
-            do
-            {
-                Console.Write("Ingrese un numero: ");
-                numeroString = Console.ReadLine();
-                Console.WriteLine("");
-                if (int.TryParse(numeroString, out numEjercicio3) && int.Parse(numeroString) >= 2)
-                {
-                    numEjercicio3 = int.Parse(numeroString);
-                    for (j = 2; j <= numEjercicio3; j++)
-                    {
-                        if ((j%2>0 ||j==2 )&& (j % 3 > 0 || j == 3 )&&( j % 5 > 0 || j == 5) && (j % 7 > 0 || j == 7) && (j % 11 > 0 || j == 11))
-                        {
-                            Console.Write("{0}, ", j);
-                        }
+            //Console.WriteLine("Ejercicio 3");
+            //do
+            //{
+            //    Console.Write("Ingrese un numero: ");
+            //    numeroString = Console.ReadLine();
+            //    Console.WriteLine("");
+            //    if (int.TryParse(numeroString, out numEjercicio3) && int.Parse(numeroString) >= 2)
+            //    {
+            //        numEjercicio3 = int.Parse(numeroString);
+            //        for (j = 2; j <= numEjercicio3; j++)
+            //        {
+            //            if ((j%2>0 ||j==2 )&& (j % 3 > 0 || j == 3 )&&( j % 5 > 0 || j == 5) && (j % 7 > 0 || j == 7) && (j % 11 > 0 || j == 11))
+            //            {
+            //                Console.Write("{0}, ", j);
+            //            }
                         
-                    }
+            //        }
 
-                    flagEj3 = true;
+            //        flagEj3 = true;
 
-                }
-                else
-                {
-                    Console.WriteLine("Error debe ingresar un numero mayor a 1.");
-                }
-            } while (flagEj3 == false);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Error debe ingresar un numero mayor a 1.");
+            //    }
+            //} while (flagEj3 == false);
+
+            Console.WriteLine(linea);
+            Console.WriteLine(linea);
+
+            Console.WriteLine("Ejercicio 4");
+            
             Console.ReadKey();
 
         }
