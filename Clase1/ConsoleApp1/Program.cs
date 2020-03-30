@@ -13,17 +13,17 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World");
             string linea = "--------------------------";
 
-            int numEjercicio1 = default,numEjercicio3=default;
-            int maximo = default;
-            int minimo = default;
-            int acumulador = default;
-            float promedio = default;
-            string numeroString = default;
-            bool flagEj1 = false, flagEj2=false,flagEj3=false;
-            int i ,j;
-            double numEjercicio2 = default;
-            double cuadradoEj2 = default;
-            double cuboEj2 = default;
+            //int numEjercicio1 = default,numEjercicio3=default;
+            //int maximo = default;
+            //int minimo = default;
+            //int acumulador = default;
+            //float promedio = default;
+            //string numeroString = default;
+            //bool flagEj1 = false, flagEj2=false,flagEj3=false;
+            //int i ,j;
+            //double numEjercicio2 = default;
+            //double cuadradoEj2 = default;
+            //double cuboEj2 = default;
 
             //foreach (var item in nombres)
             //{

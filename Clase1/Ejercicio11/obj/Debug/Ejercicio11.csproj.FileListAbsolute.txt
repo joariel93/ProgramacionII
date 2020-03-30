@@ -1,0 +1,7 @@
+E:\clases programacion 2\Clase1\Ejercicio11\obj\Debug\Ejercicio11.csprojAssemblyReference.cache
+E:\clases programacion 2\Clase1\Ejercicio11\obj\Debug\Ejercicio11.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\Clase1\Ejercicio11\bin\Debug\Ejercicio11.exe.config
+E:\clases programacion 2\Clase1\Ejercicio11\bin\Debug\Ejercicio11.exe
+E:\clases programacion 2\Clase1\Ejercicio11\bin\Debug\Ejercicio11.pdb
+E:\clases programacion 2\Clase1\Ejercicio11\obj\Debug\Ejercicio11.exe
+E:\clases programacion 2\Clase1\Ejercicio11\obj\Debug\Ejercicio11.pdb
