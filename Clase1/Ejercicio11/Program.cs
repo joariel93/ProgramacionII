@@ -13,7 +13,7 @@ namespace Ejercicio11
             int maximo, minimo, numero,i,acumulador,valorMinimo=default,valorMaximo=default;
             float promedio;
             string input;
-            bool flagNumeros=false,flagValidacion;
+            bool flagNumeros=default,flagValidacion;
             minimo = -100;
             maximo = 100;
             acumulador = 0;
@@ -24,9 +24,8 @@ namespace Ejercicio11
                 {   Console.Write("Ingrese un numero: ");
                     input = Console.ReadLine();
                     Console.WriteLine("");
-                    if (int.TryParse(input, out numero) && Validacion.ValidarNumeroConRango(int.Parse(input),minimo,maximo))
+                    if (int.TryParse(input, out numero) && Validacion.ValidarNumeroConRango(numero,minimo,maximo))
                     {
-                        numero=int.Parse(input);
                         if (flagNumeros == false)
                         {
                             valorMinimo = numero;

@@ -4,22 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio11
+namespace Ejercicio12
 {
-    class Validacion
+    class ValidarRespuesta
     {
-
-
-
-        public static bool ValidarNumeroConRango (int valor,int min, int max)
+        public static bool ValidaS_N(char c)
         {
-            if (valor > min && valor < max)
+            if (c == 's' || c == 'S')
                 return true;
             return false;
 
-
         }
-        
-
     }
 }

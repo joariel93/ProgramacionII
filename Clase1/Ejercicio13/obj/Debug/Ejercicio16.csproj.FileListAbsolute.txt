@@ -1,0 +1,6 @@
+E:\clases programacion 2\Clase1\Ejercicio13\bin\Debug\Ejercicio13.exe.config
+E:\clases programacion 2\Clase1\Ejercicio13\bin\Debug\Ejercicio13.exe
+E:\clases programacion 2\Clase1\Ejercicio13\bin\Debug\Ejercicio13.pdb
+E:\clases programacion 2\Clase1\Ejercicio13\obj\Debug\Ejercicio16.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\Clase1\Ejercicio13\obj\Debug\Ejercicio13.exe
+E:\clases programacion 2\Clase1\Ejercicio13\obj\Debug\Ejercicio13.pdb
