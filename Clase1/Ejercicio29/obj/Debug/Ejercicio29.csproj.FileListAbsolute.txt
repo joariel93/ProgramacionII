@@ -1,0 +1,7 @@
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio29\bin\Debug\Ejercicio29.exe.config
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio29\bin\Debug\Ejercicio29.exe
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio29\bin\Debug\Ejercicio29.pdb
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio29\obj\Debug\Ejercicio29.csprojAssemblyReference.cache
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio29\obj\Debug\Ejercicio29.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio29\obj\Debug\Ejercicio29.exe
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio29\obj\Debug\Ejercicio29.pdb

@@ -1,0 +1,7 @@
+E:\clases programacion 2\ProgramacionII\Clase1\TestChallenge\obj\Debug\TestChallenge.csprojAssemblyReference.cache
+E:\clases programacion 2\ProgramacionII\Clase1\TestChallenge\obj\Debug\TestChallenge.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\ProgramacionII\Clase1\TestChallenge\bin\Debug\TestChallenge.exe.config
+E:\clases programacion 2\ProgramacionII\Clase1\TestChallenge\bin\Debug\TestChallenge.exe
+E:\clases programacion 2\ProgramacionII\Clase1\TestChallenge\bin\Debug\TestChallenge.pdb
+E:\clases programacion 2\ProgramacionII\Clase1\TestChallenge\obj\Debug\TestChallenge.exe
+E:\clases programacion 2\ProgramacionII\Clase1\TestChallenge\obj\Debug\TestChallenge.pdb
