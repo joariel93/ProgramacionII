@@ -1,0 +1,11 @@
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\bin\Debug\Ejercicio32.exe.config
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\bin\Debug\Ejercicio32.exe
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\bin\Debug\Ejercicio32.pdb
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\bin\Debug\Ejercicio29.exe
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\bin\Debug\Ejercicio29.pdb
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\bin\Debug\Ejercicio29.exe.config
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\obj\Debug\Ejercicio32.csprojAssemblyReference.cache
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\obj\Debug\Ejercicio32.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\obj\Debug\Ejercicio32.csproj.CopyComplete
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\obj\Debug\Ejercicio32.exe
+E:\clases programacion 2\ProgramacionII\Clase1\Ejercicio32\obj\Debug\Ejercicio32.pdb
