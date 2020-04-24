@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CentralitaHerencia;
 
 namespace CentralitaHerencia
 {
-    class Centralita
+    public class Centralita
     {
         private List<Llamada> listaDeLlamadas;
         protected string razonSocial;
@@ -21,7 +22,15 @@ namespace CentralitaHerencia
             this.razonSocial = nombreEmpresa;
         }
 
-        public float GananciasPorLocal 
+        public List<Llamada> Llamadas
+        {
+            get
+            {
+                return this.listaDeLlamadas;
+            }
+        }
+
+        public float GananciasPorLocal
         {
             get
             {
@@ -43,20 +52,20 @@ namespace CentralitaHerencia
             }
         }
 
-        private float CalcularGanancia (TipoLlamada tipo)
+        private float CalcularGanancia(TipoLlamada tipo)
         {
-            float retorno=default;
-            switch(tipo)
+            float retorno = default;
+            switch (tipo)
             {
                 case TipoLlamada.Local:
                     foreach (Llamada item in this.listaDeLlamadas)
                     {
-                        if(item is Local)
+                        if (item is Local)
                             retorno += ((Local)item).CostoLlamada;
                     }
                     break;
                 case TipoLlamada.Provincial:
-                    foreach(Llamada item in this.listaDeLlamadas)
+                    foreach (Llamada item in this.listaDeLlamadas)
                     {
                         if (item is Provincial)
                             retorno += ((Provincial)item).CostoLlamada;
@@ -67,7 +76,7 @@ namespace CentralitaHerencia
                     {
                         if (item is Local)
                             retorno += ((Local)item).CostoLlamada;
-                        else
+                        else if(item is Provincial)
                             retorno += ((Provincial)item).CostoLlamada;
                     }
                     break;
@@ -76,14 +85,15 @@ namespace CentralitaHerencia
             return retorno;
 
         }
-        public string Mostrar ()
+        public string Mostrar()
         {
-            StringBuilder retorno=default;
+            StringBuilder retorno = new StringBuilder();
 
             retorno.AppendLine($"Empresa {this.razonSocial}");
             retorno.AppendLine($"Ganancia total {this.GananciaPorTotal}");
             retorno.AppendLine($"Ganancia por llamados locales {this.GananciasPorLocal}");
             retorno.AppendLine($"Ganancia por llamados provinciales {this.GananciaPorProvincial}");
+            retorno.AppendLine("---------------------------------------------------");
             foreach (Llamada item in this.listaDeLlamadas)
             {
                 retorno.AppendLine(item.Mostrar());
@@ -91,6 +101,34 @@ namespace CentralitaHerencia
 
 
             return retorno.ToString();
+
+        }
+
+        public void OrdenarLlamadas()
+        {
+            //int i;
+            //bool flag=default;
+            //List<Llamada> listaAuxiliar = this.listaDeLlamadas;
+            //Llamada aux ;
+
+            //do
+            //{
+            //    flag = false;
+            //    for (i = 0; i < listaAuxiliar.Count-1; i++)
+            //    {
+            //        if(this.Llamadas[i].OrdenarPorDuracion(this.Llamadas[i],this.Llamadas[i+1])>0)
+            //        {
+            //            aux = this.Llamadas[i];
+            //            listaAuxiliar[i] = listaAuxiliar[i+1];
+            //            listaAuxiliar[i + 1] = aux;
+            //            flag = true;
+            //        }
+            //    }
+
+            //    } while (flag==true);
+
+            //this.listaDeLlamadas = listaAuxiliar;
+            this.listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
 
         }
 

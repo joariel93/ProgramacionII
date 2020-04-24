@@ -1,0 +1,6 @@
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\CentralitaHerencia\bin\Debug\CentralitaHerencia.dll
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\CentralitaHerencia\bin\Debug\CentralitaHerencia.pdb
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\CentralitaHerencia\obj\Debug\CentralitaHerencia.csprojAssemblyReference.cache
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\CentralitaHerencia\obj\Debug\CentralitaHerencia.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\CentralitaHerencia\obj\Debug\CentralitaHerencia.dll
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\CentralitaHerencia\obj\Debug\CentralitaHerencia.pdb

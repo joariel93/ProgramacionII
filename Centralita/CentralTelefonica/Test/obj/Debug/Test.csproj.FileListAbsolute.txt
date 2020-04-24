@@ -1,0 +1,10 @@
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\bin\Debug\Test.exe.config
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\bin\Debug\Test.exe
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\bin\Debug\Test.pdb
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\bin\Debug\CentralitaHerencia.dll
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\bin\Debug\CentralitaHerencia.pdb
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\obj\Debug\Test.csprojAssemblyReference.cache
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\obj\Debug\Test.csproj.CopyComplete
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\obj\Debug\Test.exe
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\Test\obj\Debug\Test.pdb

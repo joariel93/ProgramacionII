@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaHerencia
 {
-    class Local : Llamada
+    public class Local : Llamada
     {
         protected float costo;
 

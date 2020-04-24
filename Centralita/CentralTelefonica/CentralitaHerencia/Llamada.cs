@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaHerencia
 {
-    enum TipoLlamada
+    public enum TipoLlamada
     {
         Local,
         Provincial,
@@ -14,6 +14,7 @@ namespace CentralitaHerencia
     }
     public class Llamada
     {
+        
         protected float duracion;
         protected string nroDestino;
         protected string nroOrigen;
@@ -50,19 +51,17 @@ namespace CentralitaHerencia
             StringBuilder retorno = new StringBuilder();
             
             retorno.AppendLine($"Duracion de la llamada {this.Duracion}");
-            retorno.AppendLine($"Recibida por {this.NroDestino}");
-            retorno.AppendLine($"Realizada por {this.NroOrigen}");
+            retorno.AppendLine($"Recibida en {this.NroDestino}");
+            retorno.AppendLine($"Realizada desde {this.NroOrigen}");
             return retorno.ToString();
         }
 
-        public int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
+        public static int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
         {
             if (llamada1.Duracion > llamada2.Duracion)
-                return 1;
-            else if (llamada1.Duracion < llamada2.Duracion)
-                return -1;
+                return 1;            
             else
-                return 0;
+                return -1;
 
         }
     }
