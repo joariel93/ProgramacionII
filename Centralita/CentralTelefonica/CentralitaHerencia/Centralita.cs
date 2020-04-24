@@ -55,31 +55,30 @@ namespace CentralitaHerencia
         private float CalcularGanancia(TipoLlamada tipo)
         {
             float retorno = default;
-            switch (tipo)
+            foreach (Llamada item in listaDeLlamadas)
             {
-                case TipoLlamada.Local:
-                    foreach (Llamada item in this.listaDeLlamadas)
-                    {
+
+                switch (tipo)
+                {
+                    case TipoLlamada.Local:
                         if (item is Local)
                             retorno += ((Local)item).CostoLlamada;
-                    }
-                    break;
-                case TipoLlamada.Provincial:
-                    foreach (Llamada item in this.listaDeLlamadas)
-                    {
+
+                        break;
+                    case TipoLlamada.Provincial:
                         if (item is Provincial)
                             retorno += ((Provincial)item).CostoLlamada;
-                    }
-                    break;
-                case TipoLlamada.Todas:
-                    foreach (Llamada item in this.listaDeLlamadas)
-                    {
+
+                        break;
+                    case TipoLlamada.Todas:
+
                         if (item is Local)
                             retorno += ((Local)item).CostoLlamada;
-                        else if(item is Provincial)
+                        else if (item is Provincial)
                             retorno += ((Provincial)item).CostoLlamada;
-                    }
-                    break;
+
+                        break;
+                }
             }
 
             return retorno;
