@@ -1,0 +1,6 @@
+E:\clases programacion 2\ProgramacionII\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.dll
+E:\clases programacion 2\ProgramacionII\20191010-PrimerParcial-alumno\Entidades\bin\Debug\Entidades.pdb
+E:\clases programacion 2\ProgramacionII\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\ProgramacionII\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.dll
+E:\clases programacion 2\ProgramacionII\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.pdb
+E:\clases programacion 2\ProgramacionII\20191010-PrimerParcial-alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

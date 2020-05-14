@@ -20,20 +20,11 @@ namespace Ejercicio33
 
             Libro libro = new Libro();
 
-            Persona
-
             libro[0] = p1;
             libro[1] = p2;
             libro[2] = p3;
             libro[3] = p4;
 
-            Object  ;
-
-            String ; 
-
-            Object ; 
-
-            Persona
 
 
 
