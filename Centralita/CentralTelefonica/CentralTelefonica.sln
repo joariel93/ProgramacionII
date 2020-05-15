@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaHerencia", "Centr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{743C2EE9-46C9-4967-A351-498A89EF4C5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmCentralita", "FrmPrincipal\FrmCentralita.csproj", "{80E74F36-D891-42D0-A772-BE93F4D2DDC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{743C2EE9-46C9-4967-A351-498A89EF4C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{743C2EE9-46C9-4967-A351-498A89EF4C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{743C2EE9-46C9-4967-A351-498A89EF4C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E74F36-D891-42D0-A772-BE93F4D2DDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E74F36-D891-42D0-A772-BE93F4D2DDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E74F36-D891-42D0-A772-BE93F4D2DDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E74F36-D891-42D0-A772-BE93F4D2DDC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

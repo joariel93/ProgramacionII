@@ -11,10 +11,10 @@ namespace CentralitaHerencia
         Local,
         Provincial,
         Todas
-    }
-    public class Llamada
+    } 
+    public abstract class Llamada
     {
-        
+       
         protected float duracion;
         protected string nroDestino;
         protected string nroOrigen;
@@ -40,13 +40,14 @@ namespace CentralitaHerencia
                 return this.nroOrigen;
             }
         }
+        public abstract float CostoLlamada { get; }
         public Llamada(float duracion, string nroDestino, string nroOrigen)
         {
             this.duracion = duracion;
             this.nroDestino = nroDestino;
             this.nroOrigen = nroOrigen;
         }
-        public string Mostrar ()
+        protected virtual string Mostrar ()
         {
             StringBuilder retorno = new StringBuilder();
             
@@ -63,6 +64,21 @@ namespace CentralitaHerencia
             else
                 return -1;
 
+        }
+
+        public static bool operator ==(Llamada llamada1,Llamada llamada2)
+        {
+            if (llamada1.Equals(llamada2) && llamada1.NroDestino == llamada2.NroDestino && 
+                llamada1.NroOrigen == llamada2.NroOrigen)
+                return true;
+
+            return false;
+
+        }
+
+        public static bool operator !=(Llamada llamada1,Llamada llamada2)
+        {
+            return !(llamada1 == llamada2);
         }
     }
 }

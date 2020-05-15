@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CentralitaHerencia;
 
+
 namespace CentralitaHerencia
 {
     public class Centralita
@@ -93,9 +94,9 @@ namespace CentralitaHerencia
             retorno.AppendLine($"Ganancia por llamados locales {this.GananciasPorLocal}");
             retorno.AppendLine($"Ganancia por llamados provinciales {this.GananciaPorProvincial}");
             retorno.AppendLine("---------------------------------------------------");
-            foreach (Llamada item in this.listaDeLlamadas)
+            foreach (Llamada item in this.Llamadas)
             {
-                retorno.AppendLine(item.Mostrar());
+                retorno.AppendLine(item.ToString());
             }
 
 
@@ -103,6 +104,41 @@ namespace CentralitaHerencia
 
         }
 
+        private void AgregarLlamada(Llamada nuevaLlamada)
+        {
+            this.Llamadas.Add(nuevaLlamada);
+        }
+
+
+        public static bool operator ==(Centralita c, Llamada llamada)
+        {
+            bool retorno=default;
+
+            foreach (Llamada item in c.Llamadas)
+            {
+                if(item==llamada)
+                {
+                    retorno = true;
+                    break;
+                }
+            }
+            return retorno;
+
+        }
+
+        public static bool operator !=(Centralita c,Llamada llamada)
+        {
+            return !(c == llamada);
+        }
+
+        public static Centralita operator +(Centralita c, Llamada nuevaLlamada)
+        {
+            if(c!=nuevaLlamada)
+                c.AgregarLlamada(nuevaLlamada);
+
+            return c;
+
+        }
         public void OrdenarLlamadas()
         {
             //int i;

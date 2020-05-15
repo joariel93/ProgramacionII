@@ -1,0 +1,14 @@
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\bin\Debug\FrmPrincipal.exe.config
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\bin\Debug\FrmPrincipal.exe
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\bin\Debug\FrmPrincipal.pdb
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\bin\Debug\CentralitaHerencia.dll
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\bin\Debug\CentralitaHerencia.pdb
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmCentralita.csprojAssemblyReference.cache
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.FormPrincipal.resources
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.Properties.Resources.resources
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmCentralita.csproj.GenerateResource.cache
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmCentralita.csproj.CoreCompileInputs.cache
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmCentralita.csproj.CopyComplete
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.exe
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.FrmLlamador.resources
