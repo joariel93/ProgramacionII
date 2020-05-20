@@ -12,3 +12,4 @@ E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipa
 E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.exe
 E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
 E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.FrmLlamador.resources
+E:\clases programacion 2\ProgramacionII\Centralita\CentralTelefonica\FrmPrincipal\obj\Debug\FrmPrincipal.FrmMostrar.resources

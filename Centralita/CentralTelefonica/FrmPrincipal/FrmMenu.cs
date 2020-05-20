@@ -13,7 +13,7 @@ namespace FrmPrincipal
 {
     public partial class FormPrincipal : Form
     {
-        Centralita unicaCentralita;
+        Centralita unicaCentralita=new Centralita();
 
         public FormPrincipal()
         {
@@ -27,7 +27,22 @@ namespace FrmPrincipal
 
         private void btnGenerarLlamada_Click(object sender, EventArgs e)
         {
-           new FrmLlamador(unicaCentralita).Show();
+           new FrmLlamador(unicaCentralita).ShowDialog();
+        }
+
+        private void btnFacTotal_Click(object sender, EventArgs e)
+        {
+            new FrmMostrar(unicaCentralita, TipoLlamada.Todas).ShowDialog();
+        }
+
+        private void btnFactLoc_Click(object sender, EventArgs e)
+        {
+            new FrmMostrar(unicaCentralita, TipoLlamada.Local).ShowDialog();
+        }
+
+        private void btnFactProv_Click(object sender, EventArgs e)
+        {
+            new FrmMostrar(unicaCentralita, TipoLlamada.Provincial).ShowDialog();
         }
     }
 }

@@ -56,7 +56,7 @@ namespace CentralitaHerencia
         {
             StringBuilder retorno = new StringBuilder();
 
-            retorno.AppendLine(base.Mostrar());
+            retorno.Append(base.Mostrar());
             retorno.AppendLine($"La franja horaria es {this.franjaHoraria}");
             retorno.AppendLine($"El costo de la llamada fue {this.CostoLlamada}");
 
