@@ -124,7 +124,7 @@ namespace FrmPrincipal
         private void btnLlamar_Click(object sender, EventArgs e)
         {
             Random duracion = new Random(1);
-
+            try { 
             if (this.txtNroDestino.Text == "Nro Destino")
             {
                 MessageBox.Show("Debe ingresar el numero al que desea llamar");
@@ -147,6 +147,11 @@ namespace FrmPrincipal
                     this.txtNroOrigen.Text = VoltearString(this.txtNroDestino.Text);
                     this.centralita += new Local(this.txtNroOrigen.Text, (float)duracion.Next(50), this.txtNroDestino.Text, (float)costo.Next((int)0.5, (int)5.6));
                 }
+            }
+            }
+            catch (CentralitaException exception)
+            {
+                MessageBox.Show(exception.Message);
             }
 
         }

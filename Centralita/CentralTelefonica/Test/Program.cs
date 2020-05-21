@@ -23,10 +23,19 @@ namespace Test
             // Las llamadas se irán registrando en la Centralita.
             // La centralita mostrará por pantalla todas las llamadas según las vaya registrando.
 
+            try
+            {
             c += l1;
             c += l2;
             c += l3;
             c += l4;
+
+            }
+            catch (CentralitaException exception)
+            {
+                Console.WriteLine(exception.Message);
+
+            }
 
 
             c.OrdenarLlamadas();

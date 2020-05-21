@@ -133,10 +133,17 @@ namespace CentralitaHerencia
 
         public static Centralita operator +(Centralita c, Llamada nuevaLlamada)
         {
-            if(c!=nuevaLlamada)
-                c.AgregarLlamada(nuevaLlamada);
-
+            
+                if (c != nuevaLlamada)
+                    c.AgregarLlamada(nuevaLlamada);
+                else
+                    throw new CentralitaException("La llamada ya esta registrada", "CentralitaException", "+");
+           
+            
             return c;
+
+            
+
 
         }
         public void OrdenarLlamadas()
